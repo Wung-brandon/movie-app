@@ -1,0 +1,30 @@
+.movies-all{
+    background-color: black;
+}
+
+.button-all{
+    /* display: flex;
+    gap: 20px;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    width: 0;
+    margin-left: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-row: 3px;
+    margin: 0 3rem;
+}
+.butts{
+    border: 0;
+    background-color: teal;
+    color: white;
+    padding: 0.5rem 0.4rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.butts:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition: 1s;
+    border: 2px solid teal;
+}

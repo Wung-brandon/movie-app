@@ -1,0 +1,45 @@
+.footer {
+    background-color: #151922;
+    position: relative;
+    padding: 1.5rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    color: #fff;
+    
+}
+@media(min-width:577px) and (max-width:767px){
+    .footer{
+        width: 100%;
+    }
+}
+
+.shows {
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 2;
+}
+
+.pagination {
+    position: relative;
+    z-index: 3; /* Increase the z-index value */
+}
+
+.all-buttons {
+    background-color: #151922;
+    color: #fff;
+    border: 0;
+}
+
+.all-buttons h5 {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.all-buttons:active {
+    color: teal;
+}

@@ -1,0 +1,13 @@
+.header{
+    background-color: #151922;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h2{
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,107 @@
+.trending h2{
+    text-transform: capitalize;
+    margin-top: 18px;
+    text-decoration: underline;
+}
+.trend-icon{
+    color: teal;
+    margin-top: 17px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.today{
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trend-movies{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-gap: 0.5rem; */
+    margin-left: 2rem;
+    margin-right: -3rem;
+    /* margin-bottom: 2rem; */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media(max-width:576px){
+    .trend-movies{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5rem;
+       
+        /* margin-right: 2rem; */
+    }
+    .movies-trend{
+        border: 0;
+    }
+}
+@media(min-width:577px) and (max-width:767px){
+    .trend-movies{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .movies-trend{
+        border: 0;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .trend-movies{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .movies-trend{
+        border: 0;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .trend-movies{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .movies-trend{
+        border: 0;
+    }
+}
+@media(min-width:1200px){
+    .trend-movies{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.movies-trend{
+    /* background-color: #151922; */
+    /* border: 1px solid #151922; */
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    width: 70%;
+    justify-items: center;
+    transition: 1s;
+    border-radius: 6px;
+}
+.movies-trend:hover{
+    transform: scale(1.1);
+}
+.img-pic{
+    margin-left: 0.9rem;
+    margin-right: 0.3rem;
+    margin-top: 0.8rem;
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+}
+.title, .release{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.title span{
+    color: teal;
+    font-weight: bold;
+}
+.release{
+    margin-bottom: 1rem;
+}
